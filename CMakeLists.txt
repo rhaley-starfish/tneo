@@ -16,13 +16,9 @@ LIST(APPEND TNEO_SRC
     src/tn_app_check.c
     src/arch/cortex_m/tn_arch_cortex_m_c.c
     src/arch/cortex_m/tn_arch_cortex_m.S
-#    examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/startup_stm32f40_41xxx.s
-    #arch/pic24_dspic/tn_arch_pic24_c.c
-    #arch/pic32/tn_arch_pic32.c
     )
 
 INCLUDE_DIRECTORIES(
-    ../src
     ../inc
     src
     src/arch/
